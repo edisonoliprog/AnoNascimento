@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Idade</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <br/>
+  <br/>
+  <body>
+    <p>
+      <center><input
+        type="number"
+        name="anonasc"
+        id="anonasc"
+        placeholder="Que ano você nasceu?"
+      /></center
+    </p>
+    <p>
+        <center><input
+        type="number"
+        name="anoatual"
+        id="anoatual"
+        placeholder="Em que ano estamos?"
+      /></center
+    </p>
+
+    <br/>
+    <center><button onclick="calc_idade()">Calcular Idade</button></center>
+    <p>
+      <center><input
+        
+        type="number"
+        name="idadeanos"
+        id="idadeanos"
+        readonly
+        placeholder="A sua idade é..."
+      
+        /></center>
+    </p>
+
+    <p>
+      <center><input
+        type="number"
+        name="idademeses"
+        id="idademeses"
+        readonly
+        placeholder="Idade em Meses..."
+      />
+    </p>
+
+    <p>
+      <center><input
+        type="number"
+        name="idadesemanas"
+        id="idadesemanas"
+        readonly
+        placeholder="Idade em Semanas..."
+      /></center>
+    </p>
+
+    <p>
+      <center><input
+        type="number"
+        name="idadedias"
+        id="idadedias"
+        readonly
+        placeholder="Idade em Dias..."
+      /></center>
+    </p>
+
+    <script src="idade.js"></script>
+  </body>
+</html>

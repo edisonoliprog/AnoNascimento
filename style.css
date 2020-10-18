@@ -1,0 +1,33 @@
+body {
+
+    background-color: rgb(97, 1, 1);
+}
+
+input {
+
+ align-items: flex-start;
+ font-size: 30px;
+ font-weight: 900;
+ font-style: italic;
+ color: rgb(97, 1, 1);
+ border-color: orangered;
+ border-width: 10px;
+ scrollbar-track-color: rgb(238, 236, 235);
+ text-align: center;
+}
+
+button
+{
+
+    align-items: flex-start;
+    font-size: large;
+    font-weight: 900;
+    font-size: 30px;
+    border-color: orangered;
+    border-width: 10px;
+    color: rgb(2, 46, 2);
+    outline-color: rgb(15, 145, 15);
+    outline-width: 30cm;   
+    border-radius: 20cm;
+    border-image-outset: 20cm;
+   }
